@@ -10,5 +10,10 @@ app.post('/api/addWorkout', workOutController.addWorkout)
 // app.get('/api/workouts/:id', workOutController.)
 
 
+//CRUD_______
+app.post('/api/createWorkout',workOutController.createWorkout)
+
+
+
 const PORT = 4001;
 app.listen(PORT, () => console.log(`whatver, ${PORT}`));
